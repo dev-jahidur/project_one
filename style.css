@@ -1,0 +1,318 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fixed-width {
+    width: 1120px;
+    margin: auto;
+}
+
+span {
+    color: #7a72ff;
+}
+
+img {
+    height: 300px !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #3d3d4a;
+    padding: 10px 30px;
+    border-radius: 50px; 
+    transition: all ease .5s;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #6961f8;
+}
+
+.mr-b {
+    margin-bottom: 30px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.c-b {
+    color: #3d3d4a !important;
+}
+
+/* header Section Start */
+header {
+    position: relative;
+}
+header .header-up {
+    justify-content: space-between;
+    padding: 50px 0;
+}
+header .header-up .logo{}
+header .header-up .logo h2 {
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+
+header .header-up .search-icon {
+    width: 180px;
+    height: 45px;
+    background: #ffff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    border-radius: 50px;
+    position: fixed;
+    right: 120px;
+    top: 50px;
+    z-index: 1111;
+
+}
+header .header-up .search-icon .search-icon-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+header .header-up .search-icon .search-icon-inner i {
+    color: #3d3d4a;
+}
+header .header-up .search-icon .search-icon-inner input{
+    width: 80%;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+
+header .header-up .search-icon .search-icon-inner input::placeholder{
+    color: #333333;
+}
+
+header .header-down {
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+header .header-down .header-down-left {}
+header .header-down .header-down-left img {}
+
+header .header-down .header-down-right h1{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 20px;
+    color: #3d3d4a;
+    line-height: 30px;
+}
+header .header-down .header-down-right h1 span {
+    color: #7a72ff;
+}
+header .header-down .header-down-right h2 {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3d3d4a;
+}
+header .header-down .header-down-right h2 span {
+    color: #7a72ff;
+}
+header .header-down .header-down-right .buy-btn {}
+header .header-down .header-down-right .buy-btn .btn{}
+
+header .header-social-icon {
+    position: fixed;
+    left: 30px;
+    top: 50px;
+    transform: translate(0%,60%);
+    background: #ffff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding: 12px;
+    text-align: center;
+    border-radius: 50px;
+    z-index: 1111;
+}
+header .header-social-icon i {
+    display: block;
+    padding: 15px 0;
+    font-size: 20px;
+    color: #3d3d4a;
+}
+
+/* header Section End */
+
+/* Bag Collection Section Start */
+section#bag-collection {
+}
+section#bag-collection .bag-collection-inner {
+    background-color: #ffff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    padding: 50px; 
+    margin-bottom: 30px;
+}
+section#bag-collection .bag-collection-up {}
+section#bag-collection .bag-collection-up h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section#bag-collection .bag-collection-up h1 span{
+    font-weight: 500;
+}
+
+section#bag-collection .bag-collection-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+section#bag-collection .bag-collection-down .bag-collection-product {
+    width: 33.3%;
+    padding-bottom: 50px;
+    position: relative;
+}
+section#bag-collection .bag-collection-down .bag-collection-product img {
+    width: 200px;
+}
+section#bag-collection .bag-collection-down .bag-collection-product h4 {
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -60px;
+    color: #c5c5c5;
+    margin-bottom: 10px;
+}
+
+section#bag-collection .bag-collection-down .bag-collection-product del {
+    color: #3d3d4a;
+    margin-right: 8px;
+}
+
+section#bag-collection .bag-collection-down .bag-collection-product a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #3d3d4a;
+    font-size: 18px;
+}
+section#bag-collection .bag-collection-down .bag-collection-product a span{
+    font-family: 'Times New Roman', Times, serif;
+    color: #7a72ff;
+}
+
+section#bag-collection .bag-collection-down .btn {
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    background: linear-gradient(120deg,#6b60ec 20%,#a166f4);
+    color: #fff;
+    display: none;
+}
+
+
+section#bag-collection .bag-collection-down .bag-collection-product:hover {
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+
+section#bag-collection .bag-collection-down .bag-collection-product:hover .btn{
+    display: initial;
+    color: #fff;
+}
+/* Bag Collection Section End */
+
+/* About Section Start */
+section#about-section {}
+section#about-section .about-section-inner {
+    justify-content: center;
+    align-items: center;
+    color: #3d3d4a;
+}
+section#about-section .about-section-inner .about-section-left {
+    padding-right: 40px;
+}
+section#about-section .about-section-inner .about-section-left h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+section#about-section .about-section-inner .about-section-left h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+section#about-section .about-section-inner .about-section-left h2 a {
+    text-decoration: none;
+    color: #7a72ff;
+}
+section#about-section .about-section-inner .about-section-left p {
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+section#about-section .about-section-inner .about-section-right {}
+section#about-section .about-section-inner .about-section-right img {}
+/* About Section End */
+
+/* Footer Section Start  */
+footer {
+    
+}
+footer .footer-section-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+footer .footer-section-inner h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+footer .footer-section-inner .email-button {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 2px 5px 30px rgba(0,0,0,0.1);
+    padding: 5px 20px;
+}
+footer .footer-section-inner .email-button input {
+    padding: 18px 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+footer .footer-section-inner .email-button .btn {
+    padding: 8px 30px;
+}
+
+footer p {
+    background-color: #3d3d4a;
+    text-align: center;
+    padding: 8px 0;
+    color: #fff;
+    font-weight: 300;
+}
+footer p span{
+   cursor: pointer;
+   color: #fff;
+   font-weight: 400;
+}
+/* Footer Section End */
+
